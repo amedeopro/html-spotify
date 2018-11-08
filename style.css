@@ -52,8 +52,13 @@
 }
 
 .menu h4{
+  margin-top: 35px;
   text-transform: uppercase;
   font-weight: 700;
+}
+
+.menu p{
+  margin: 0;
 }
 
 .menu-sx-footer{
