@@ -96,10 +96,10 @@
 
 .menu-centro{
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 150px;
-  line-height: 150px;
-  justify-content: center;
 }
 
 .item-menu-centro a{
@@ -109,6 +109,14 @@
   color: #696a67;
   text-transform: uppercase;
   font-weight: 700;
+}
+
+.bordino-active {
+  margin-top: 0;
+  width: 30%;
+  margin-left: 36%;
+  transform: translateX(-50%);
+  border-bottom: 2px solid #1db954;
 }
 
 .testo-centro{
