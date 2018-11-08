@@ -20,7 +20,7 @@
   justify-content: space-between;
   width: 20%;
   height: 90vh;
-  background: #040503; 
+  background: #040503;
 }
 .logo{
   text-align: center;
@@ -54,6 +54,30 @@
 .menu h4{
   text-transform: uppercase;
   font-weight: 700;
+}
+
+.menu-sx-footer{
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.link-navbar-sx a{
+  text-decoration: none;
+  color: #696a67;
+}
+
+.link-navbar-sx-user a{
+  text-decoration: none;
+  color: white;
+
+}
+
+.bordo-link{
+  height: 1px;
+  width: 100%;
+  background: #696a67;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .contenuto-centrale{
