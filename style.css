@@ -91,6 +91,7 @@
   height: 90vh;
   background: linear-gradient( #2f393a , #080a07);
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .menu-centro{
@@ -111,10 +112,10 @@
 }
 
 .testo-centro{
-  width: 100%;
+  width: 1320px;
   margin: auto;
   color: white;
-  margin-left: 48px;
+  margin-left: 150px;
   margin-bottom: 25px;
 }
 
@@ -128,7 +129,7 @@
 }
 
 .container-item-card{
-  width: 100%;
+  width: 1320px;
   margin: auto;
 }
 
@@ -162,11 +163,6 @@
   width: 210px;
   max-height: 190px;
 }
-
-/* .card a > img:hover {
-  background: yellow;
-  z-index: 1;
-} */
 
 .footer{
   flex-direction: row;
