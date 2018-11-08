@@ -172,9 +172,51 @@
   max-height: 190px;
 }
 
-.footer{
+.footer-spotify{
+  display: flex;
   flex-direction: row;
-  width: 100%;
+  justify-content: space-between;
+  padding: 10px 10px;
   height: 10vh;
   background: #282828;
+}
+
+.footer-left{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.text-footer-left a{
+  display: block;
+  font-size: 14px;
+  margin: 0;
+  margin-left: 10px;
+  margin-top: 15px;
+  color: white;
+}
+
+.text-footer-left a:last-child{
+  display: block;
+  font-size: 10px;
+  margin: 0;
+  color: #666969;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.icon-footer-left i{
+    margin-top: 25px;
+    padding-left: 20px;
+    color: #666969;
+}
+
+.footer-center{
+  display: flex;
+  align-items: center;
+}
+
+.footer-right{
+  display: flex;
+  align-items: center;
 }
