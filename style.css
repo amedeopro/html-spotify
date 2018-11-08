@@ -142,6 +142,7 @@
 .card {
    width: 210px;
    margin: 5px;
+   margin-bottom: 30px;
 }
 
 .card h5{
@@ -161,6 +162,11 @@
   width: 210px;
   max-height: 190px;
 }
+
+/* .card a > img:hover {
+  background: yellow;
+  z-index: 1;
+} */
 
 .footer{
   flex-direction: row;
