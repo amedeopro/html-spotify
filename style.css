@@ -213,11 +213,13 @@
 
 .footer-center{
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
 .footer-center-icon{
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
   width: 350px;
@@ -241,6 +243,24 @@
 .play i{
   color: #666969;
   font-size: 30px;
+}
+
+.footer-line{
+  margin-top: 20px;
+  width: 300px;
+  height: 2px;
+  background: #666969;
+  border: 3px solid #666969;
+  border-radius: 50px;
+}
+
+.pallino{
+  width: 15px;
+  height: 15px;
+  background: white;
+  border-radius: 100%;
+  margin: auto;
+  margin-top: -7px;
 }
 
 
