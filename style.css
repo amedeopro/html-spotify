@@ -266,5 +266,41 @@
 
 .footer-right{
   display: flex;
+  flex-direction: row;
   align-items: center;
+}
+
+.footer-right-icon{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-right-icon i{
+  margin-top: 15px;
+  margin-right: 10px;
+  color: #666969;
+  font-size: 15px;
+}
+
+.footer-line-right{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  width: 100px;
+  height: 2px;
+  background: #666969;
+  border: 3px solid #666969;
+  border-radius: 50px;
+  margin-left: 15px;
+  margin-right: 25px;
+}
+
+.pallino-right{
+  width: 15px;
+  height: 15px;
+  background: white;
+  border-radius: 100%;
+  margin: auto;
+  margin-top: -7px;
 }
